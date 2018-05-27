@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+*:focus{
+  outline:0;
+}
+body,html{
+  font-family: 'Poppins',sans-serif;
+  position: relative;
+  margin: 0;
+  background: #eee;
+  padding: 0;
+}
+.logo{
+  width: 45px;
+  height: 45px;
+  color:#fff;
+  background: #2c3e50;
+  font-size: 29px;
+  position: fixed;
+  top:1rem;
+  left: 1rem;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  z-index: 2;
+}
+.github{
+  font-size: 2rem;
+  position: fixed;
+  top:0.5em;
+  right: 0.7em;
+  color: #2c3e50;
+  z-index: 3;
+}
+main{
+  background:#fff;
+  min-height: 98vh;
+  margin: 1vh;
+  color: #2c3e50;
+}
+.container{
+  text-align: center;
+  padding: 5em 15px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+h1{
+  font-size: 2.5rem;
+  padding: 0 0.2em;
+  display: inline-block;
+  margin: 0;
+}
+h2{
+  font-family: 'IBM Plex Sans',sans-serif;
+  font-weight: 300;
+  margin: 0;
+  font-size: 18px;
+}
