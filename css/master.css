@@ -58,3 +58,95 @@ h2{
   margin: 0;
   font-size: 18px;
 }
+.content{
+  margin: 0 15vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.element-btn{
+  margin: 20px 50px;
+}
+.btn{
+  color: #222;
+  text-decoration: none;
+  border:none;
+  font-family: 'IBM Plex Sans',sans-serif;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  display: inline-block;
+  text-align: center;
+}
+.btn.simple{
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+}
+.btn.simple:hover{
+  border-bottom:1px solid rgba(0,0,0,0.3);
+}
+.btn.rect{
+  border:1px solid #e8e8e8;
+  padding: 0.8rem 1.8rem;
+}
+.btn.rect:hover{
+  background: #e8e8e8;
+}
+.btn.rect-fill{
+  background:#000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+}
+.btn.rect-fill:hover{
+  background: #222;
+}
+.btn.rounded{
+  border:1px solid #e8e8e8;
+  border-radius: 45px;
+  padding: 0.8rem 1.8rem;
+}
+.btn.rounded:hover{
+  background: #e8e8e8;
+}
+.btn.rounded-fill{
+  border-radius: 45px;
+  background:#000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+}
+.btn.rounded-fill:hover{
+  background: #222;
+}
+.btn.gradient{
+  border-radius: 45px;
+  background:#000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+}
+.btn.gradient:hover{
+  background: linear-gradient(-45deg,#333, #000);
+}
+.btn.circle{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border:2px solid #000;
+  line-height: 4.9rem;
+  box-sizing: border-box;
+}
+.btn.circle:hover{
+  transform: rotate(180deg);
+}
+.btn.circle-fill{
+  width: 5rem;
+  height: 5rem;
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 4.9rem;
+}
+.btn.circle-fill:hover{
+  transform: rotate(180deg);
+}
