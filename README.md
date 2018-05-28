@@ -7,9 +7,9 @@ Incredible CSS buttons for your project
 1) Add a link to the css file in your `<head>`:
 
 ```html
-<link rel="stylesheet" type="text/css" href="css-buttons.css"/>
+<link rel="stylesheet" type="text/css" href="css/css-buttons.css"/>
 // Or for the minified file, add this:
-<link rel="stylesheet" type="text/css" href="css-buttons.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/css-buttons.min.css"/>
 ```
 
 ## Demo
