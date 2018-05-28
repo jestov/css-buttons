@@ -66,7 +66,7 @@ h4{
   padding-left: 30px;
 }
 .content{
-  margin: 2vh 15vh;
+  margin: 0 15vh;
   display: flex;
   align-content: center;
   align-items: center;
@@ -189,4 +189,16 @@ footer a{
 }
 footer a:hover{
   border-bottom:1px solid #ddd;
+}
+@media all and (max-width:1050px){
+  .content{
+    margin: 0 2vh;
+  }
+  .element-btn{
+    margin: 10px;
+  }
+  h4,.content p{
+    padding-left: 12px;
+    margin-left: 0;
+  }
 }
