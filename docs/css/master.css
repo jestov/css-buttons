@@ -232,7 +232,7 @@ footer a:hover{
   }
 }
 @media all and (max-width:600px){
-  .element-btn{
+  .pre{
     width: 100%;
     font-size: 12px;
   }
