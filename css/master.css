@@ -58,6 +58,13 @@ h2{
   margin: 0;
   font-size: 18px;
 }
+h3{
+  width: 100%;
+}
+h4{
+  width: 100%;
+  padding-left: 30px;
+}
 .content{
   margin: 0 15vh;
   display: flex;
@@ -65,13 +72,18 @@ h2{
   align-items: center;
   flex-wrap: wrap;
 }
+.content p{
+  font-size: 14px;
+  margin-left: 30px;
+  font-family: 'IBM Plex Sans',sans-serif;
+}
 .element-btn{
-  margin: 20px 50px;
+  margin: 20px 30px;
 }
 .btn{
   color: #222;
   text-decoration: none;
-  border:none;
+  border:2px solid #eee;
   font-family: 'IBM Plex Sans',sans-serif;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
@@ -79,74 +91,83 @@ h2{
   transition: all 0.4s ease;
   display: inline-block;
   text-align: center;
+  padding: 0.8rem 1.8rem;
+}
+.btn:hover{
+  background: #e8e8e8;
 }
 .btn.simple{
   padding: 4px 0;
+  border:none;
   border-bottom: 1px solid transparent;
 }
 .btn.simple:hover{
   border-bottom:1px solid rgba(0,0,0,0.3);
-}
-.btn.rect{
-  border:1px solid #e8e8e8;
-  padding: 0.8rem 1.8rem;
-}
-.btn.rect:hover{
-  background: #e8e8e8;
-}
-.btn.rect-fill{
-  background:#000;
-  color: #fff;
-  padding: 0.8rem 1.8rem;
-}
-.btn.rect-fill:hover{
-  background: #222;
+  background: transparent;
 }
 .btn.rounded{
-  border:1px solid #e8e8e8;
+  border-radius: 6px;
+}
+.btn.super-rounded{
   border-radius: 45px;
-  padding: 0.8rem 1.8rem;
-}
-.btn.rounded:hover{
-  background: #e8e8e8;
-}
-.btn.rounded-fill{
-  border-radius: 45px;
-  background:#000;
-  color: #fff;
-  padding: 0.8rem 1.8rem;
-}
-.btn.rounded-fill:hover{
-  background: #222;
-}
-.btn.gradient{
-  border-radius: 45px;
-  background:#000;
-  color: #fff;
-  padding: 0.8rem 1.8rem;
-}
-.btn.gradient:hover{
-  background: linear-gradient(-45deg,#333, #000);
 }
 .btn.circle{
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  border:2px solid #000;
-  line-height: 4.9rem;
+  line-height: 1;
   box-sizing: border-box;
+  padding: 1.3em 0;
+}
+.btn.circle.medium{
+  width: 6rem;
+  height: 6rem;
+  padding: 1.8em 0;
+}
+.btn.circle.medium{
+  width: 6rem;
+  height: 6rem;
+  padding: 1.8em 0;
+}
+.btn.circle.big{
+  width: 7rem;
+  height: 7rem;
+  padding: 2.45em 0;
 }
 .btn.circle:hover{
   transform: rotate(180deg);
 }
-.btn.circle-fill{
-  width: 5rem;
-  height: 5rem;
-  background: #000;
-  border-radius: 50%;
-  color: #fff;
-  line-height: 4.9rem;
+.btn.medium{
+  padding: 1.15rem 2.15rem;
 }
-.btn.circle-fill:hover{
-  transform: rotate(180deg);
+.btn.big{
+  padding: 1.5rem 2.5rem;
+}
+.btn.black,.btn.dark-blue,.btn.blue,.btn.green{
+  border:none;
+  color: #fff;
+}
+.btn.green{
+  background: #27ae60;
+}
+.btn.green:hover{
+  background:#2ecc71;
+}
+.btn.blue{
+  background: #2980b9;
+}
+.btn.blue:hover{
+  background: #3498db;
+}
+.btn.dark-blue{
+  background: #2c3e50;
+}
+.btn.dark-blue:hover{
+  background: #34495e;
+}
+.btn.black{
+  background: #000;
+}
+.btn.black:hover{
+  background: #222;
 }
