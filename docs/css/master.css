@@ -51,6 +51,7 @@ h1{
   padding: 0 0.2em;
   display: inline-block;
   margin: 0;
+  line-height: 1;
 }
 h2{
   font-family: 'IBM Plex Sans',sans-serif;
@@ -66,9 +67,9 @@ h4{
   padding-left: 30px;
 }
 pre{
-  background: #2c3e50;
+  background: #f9f9f9;
   border: none;
-  color: #ddd;
+  color: #666;
   page-break-inside: avoid;
   font-family: Lekton,monospace;
   font-size: 14px;
@@ -77,13 +78,12 @@ pre{
   max-width: 100%;
   padding: 1em 1.5em;
   border-radius: 6px;
-  box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
   letter-spacing: 0.8px;
-  white-space: pre-wrap;       /* Since CSS 2.1 */
-   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-   white-space: -pre-wrap;      /* Opera 4-6 */
-   white-space: -o-pre-wrap;    /* Opera 7 */
-   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
 }
 
 .content{
@@ -223,5 +223,17 @@ footer a:hover{
   h4,.content p{
     padding-left: 12px;
     margin-left: 0;
+  }
+  .element-btn{
+    width: calc(50% - 20px);
+  }
+  .container{
+    padding: 2em 15px;
+  }
+}
+@media all and (max-width:600px){
+  .element-btn{
+    width: 100%;
+    font-size: 12px;
   }
 }
