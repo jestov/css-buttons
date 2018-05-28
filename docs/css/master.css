@@ -65,6 +65,27 @@ h4{
   width: 100%;
   padding-left: 30px;
 }
+pre{
+  background: #2c3e50;
+  border: none;
+  color: #ddd;
+  page-break-inside: avoid;
+  font-family: Lekton,monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  padding: 1em 1.5em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.1);
+  letter-spacing: 0.8px;
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+   white-space: -pre-wrap;      /* Opera 4-6 */
+   white-space: -o-pre-wrap;    /* Opera 7 */
+   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
 .content{
   margin: 0 15vh;
   display: flex;
@@ -80,6 +101,7 @@ h4{
 }
 .element-btn{
   margin: 20px 30px;
+  width: calc(33.33% - 60px);
 }
 .btn{
   color: #222;
@@ -93,6 +115,7 @@ h4{
   display: inline-block;
   text-align: center;
   padding: 0.8rem 1.8rem;
+  margin: 0.5rem;
 }
 .btn:hover{
   background: #eee;
